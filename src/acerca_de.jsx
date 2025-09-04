@@ -147,9 +147,10 @@ function acerca_de() {
 
             <p
               style={{
+                margin: "0 20px",
                 textAlign: "justify",
                 fontFamily: "Roboto, serif",
-                fontSize: "24px",
+                fontSize: "30px",
                 color: "rgb(85, 80, 73)",
               }}
             >
@@ -231,7 +232,7 @@ function acerca_de() {
               style={{
                 textAlign: "justify",
                 fontFamily: "Roboto, serif",
-                fontSize: "24px",
+                fontSize: "30px",
                 color: "rgb(85, 80, 73)",
                 margin: "0 5vw",
               }}

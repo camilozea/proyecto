@@ -75,6 +75,7 @@ function Adopta() {
               fontSize: "25px",
               fontFamily: "Roboto, serif",
               color: "rgb(85, 80, 73)",
+              margin: "20px 0",
             }}
           >
             Dale una nueva oportunidad a un ser que te brindará amor y compañía.
@@ -88,6 +89,7 @@ function Adopta() {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "space-around",
+            margin: "25px",
           }}
         >
           {animales.map((animal, index) => (

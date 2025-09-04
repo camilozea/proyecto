@@ -1,0 +1,63 @@
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Lilita One", serif;
+  color: rgb(46, 46, 47);
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .contact-link {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Móviles medianos (481px - 767px) */
+@media (max-width: 767px) {
+  .nav-link {
+    font-size: 16px;
+  }
+  .contact-link {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* Móviles grandes (768px - 991px) */
+@media (max-width: 991px) {
+  .nav-link {
+    font-size: 18px;
+  }
+  .contact-link {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 90px;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}

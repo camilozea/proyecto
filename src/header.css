@@ -1,18 +1,69 @@
-.nav-link{
-   padding: 5px 10px;
-    text-decoration: none; /* Eliminar subrayado */
-    transition: background-color 0.3s, color 0.3s; /* Animación suave */
-    border-radius: 10px;
-    cursor: pointer;
+.nav-link {
+  padding: 5px 10px;
+  text-decoration: none; /* Eliminar subrayado */
+  transition: background-color 0.3s, color 0.3s; /* Animación suave */
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.contact-link{
-    padding: 10px 20px;
-    background-color: transparent;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    border-radius: 10px;
+.contact-link {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 10px;
 }
 
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .contact-link {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Móviles medianos (481px - 767px) */
+@media (max-width: 767px) {
+  .nav-link {
+    font-size: 16px;
+  }
+  .contact-link {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* Móviles grandes (768px - 991px) */
+@media (max-width: 991px) {
+  .nav-link {
+    font-size: 18px;
+  }
+  .contact-link {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 90px;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
